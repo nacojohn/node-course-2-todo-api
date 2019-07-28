@@ -21,5 +21,5 @@ MongoClient.connect('mongodb://localhost:27017', (err, client) => {
         err => console.log('Unable to fetch Users', err)
     )
 
-    client.close();
+    // client.close();
 })
